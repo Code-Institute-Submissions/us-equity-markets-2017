@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Browser Window Title -->
+  <title>US Equity Markets 2017</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+  <!-- DC CSS -->
+  <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+
+
+  <!-- D3 Javascript - Ordered first as Crossfilter and DC are depedencies -->
+  <script type="text/javascript" src="static/js/d3.min.js"></script>
+  <!-- Crossfilter JS - Ordered after D3, as it depends on D3 loading first -->
+  <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+  <!-- DC JS - Ordered after D3, as it depends on D3 loading first -->
+  <script type="text/javascript" src="static/js/dc.min.js"></script>
+  <!-- Queue JS - Assists with loading files -->
+  <script type="text/javascript" src="static/js/queue.min.js"></script>
+  <!-- Custom JS -->
+  <script type="text/javascript" src="static/js/graph.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">US Equity Markets 2017</a>
+  </nav>
+
+  <div class="container-fluid">
+
+    <main>
+
+      <section class="section">
+        <!-- Heading -->
+        <div class="row">
+          <h1 class="heading">NASDAQ & NYSE 2017 - Equities Below $50</h1>
+        </div>
+
+        <div class="row">
+          <h2 class="selector-heading">Select Industry</h2>
+        </div>
+
+        <!-- Drop Down Selector -->
+        <div class="row">
+          <div id="industry-selector" class="selector"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <!-- Number of Equities by Sector BarChart -->
+        <div class="row">
+          <div class="bar-chart-heading">Number of Equities by Sector</div>
+        </div>
+
+        <div class="row">
+          <div id="sector-balance" class="bar-chart"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <!-- Market Capitalisation by Sector PieChart -->
+        <div class="row pie-charts">
+          <div class="col-md-3 pie-chart-heading">Market Capitalisation by Sector ('000,000s)</div>
+          <div class="col-md-3 pie-chart-heading">Market Capitalisation by Domiciled Country ('000,000s)</div>
+          <div class="col-md-3 pie-chart-heading">Average Daily Volume by Sector ('000s)</div>
+          <div class="col-md-3 pie-chart-heading">Average Daily Volume by Domiciled Country ('000s)</div>
+        </div>
+
+        <!-- Market Capitalisation by Country PieChart -->
+        <div class="row pie-charts">
+          <div class="col-md-3" id="marketcap-sector"></div>
+          <div class="col-md-3" id="marketcap-country"></div>
+          <div class="col-md-3" id="avgvol-sector"></div>
+          <div class="col-md-3" id="avgvol-country"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <!-- Average Volume per Equity by Sector by Sector BarChart -->
+        <div class="row">
+          <div class="bar-chart-heading-per-equity">Average Daily Volume per Equity by Sector ('000s)</div>
+        </div>
+
+        <div class="row">
+          <div id="equities-traded" class="bar-chart"></div>
+        </div>
+      </section>
+
+      <!-- Average Volume to Price ScatterPlot -->
+      <div class="row">
+        <div class="bar-chart-heading-per-equity">Average Daily Volume ('000s) per Equity -V- Price per Equity </div>
+      </div>
+
+      <div class="row">
+        <div id="price-avgvol" class="bar-chart"></div>
+      </div>
+
+      <!-- Background photo -->
+
+      <style>
+        body {
+          height: 90vh;
+          background: url('images/image.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        }
+      </style>
+
+    </main>
+
+  </div>
+
+</body>
+
+</html>

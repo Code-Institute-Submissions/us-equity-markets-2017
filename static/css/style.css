@@ -1,0 +1,75 @@
+/* Body Styling */
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    float: none;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    border-bottom: 2px solid #004d4d;
+    padding: 15px 0;
+}
+
+.selector-heading {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selector {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bar-chart-heading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bar-chart {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-chart-heading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-charts {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bar-chart-heading-per-equity {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
