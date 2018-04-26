@@ -36,9 +36,9 @@ This SPA site provides users with a drop-down selector, pie charts, bar charts a
 5. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
 6. Deployed via GitHub Pages: https://githhayden.github.io/US-Equity-Markets-2017/
 
-## Developer 'To Do' Notes
+### Developer 'To Do' Notes
 
 * Current iteration = i1.
 * Subsequent iterations:
-    1. Add comma seperator to hover integars.
+    1. Add comma seperator to hoover integars.
     2. Review stlying end-to-end.
