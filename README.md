@@ -40,5 +40,5 @@ This SPA site provides users with a drop-down selector, pie charts, bar charts a
 
 * Current iteration = i1.
 * Subsequent iterations:
-    1. Add comma seperator to hoover integars.
+    1. Add comma seperator to hoover metrics.
     2. Review stlying end-to-end.
