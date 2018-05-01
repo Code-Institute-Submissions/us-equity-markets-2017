@@ -45,4 +45,4 @@ thus, lost all staged commits.
 * Current iteration = i2.
 * Subsequent iterations:
     1. Add comma separator to hoover metrics.
-    2. Review styling end-to-end.
+    2. Review styling end-to-end. Update X and Y data for clearer user reading.
