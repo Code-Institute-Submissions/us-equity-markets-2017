@@ -49,3 +49,11 @@ thus, lost all staged commits.
     3. Run JS through jshint.com for code improvement suggestions.
     4. Add more text at the top explaining the dashboard's purpose and how to use it. Add intro.js or similar for an interactive tutorial.
     5. CSS (repeated)/Make easier to work with - e.g. margings. Amend CSS to apply styles at a higher level (of all main?), or alternatively create a common class for these repeating rules and add it to all of the elements that need that styling.
+    6. Ampersand (&) is a special character in HTML used to add special entities to the text, whenever want to include it as is, use the sequence "&amp;".
+    7. Testing - add testing section to readme.
+        a) Describe the process by which you made sure that the functionality all works as intended. 
+        b) Structure around the list of scenarios - e.g. I clicked on the Videos link in the navbar, then clicked play to verify that the video plays correctly and clicked download to verify that I could download it to my computer.
+        c) Describe any interesting bugs and how you addressed them, and whether there were any issues that you didn't/couldn't fix.
+    8. Seperation of Concerns - Check all code witin own files, rather than HTML.
+    9. Add Gulp file? - describe in the readme's deployment section and explaining how it works.
+    10. Check code strongly commented and update commentary if required.
