@@ -44,7 +44,8 @@ thus, lost all staged commits.
 
 * Current iteration = i2.
 * Subsequent iterations:
-    1. Add comma separator to hoover metrics.
+    1. Run code through validator/s.
+    2. Add comma separator to hoover metrics.
     2. Review styling end-to-end. Update X and Y axis, to read clearer.
     3. Run JS through jshint.com for code improvement suggestions.
     4. Add more text at the top explaining the dashboard's purpose and how to use it. Add intro.js or similar for an interactive tutorial.
