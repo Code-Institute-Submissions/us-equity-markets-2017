@@ -38,7 +38,7 @@ NOTE: At end of project, re-pushed to a new GitHub repo to update project naming
 thus, lost all staged commits.
 ```
 5. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
-6. Deployed via GitHub Pages: https://githhayden.github.io/US-Equity-Markets-2017/
+6. Deployed: [GitHub Pages](https://githhayden.github.io/US-Equity-Markets-2017/).
 
 ### Developer 'To Do' Notes
 
