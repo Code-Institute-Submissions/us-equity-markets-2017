@@ -32,12 +32,11 @@ This SPA site provides users with a drop-down selector, pie charts, bar charts a
 1. Blank `Cloud 9` workspace created. Folders set up and files uploaded/created in line with wireframe.
 2. `index.html`, `graph.js` and `style.css` updated in parallel. HTML, CSS, and JavaScript code written for each section. See code commentary for detailed guidance.
 3. UAT: Final web design inspected via `Cloud 9`, `Run`. Responsive web design tested via `Chrome Dev Tools`, `Toggle Device Toolbar`. ``` D3 data visualisation is non-responsive and built for large screens``` therefore, `Bootstrap` containers ONLY are responsive.
-4. Staged Project Backup: Pushed to `GitHub` repo via `Linux` terminal in incremental stages.
+5. Git and GitHub: Used for version control and to deploy backup up project.
 ```
 NOTE: At end of project, re-pushed to a new GitHub repo to update project naming conventions,
 thus, lost all staged commits.
 ```
-5. Final Project Backup: Pushed to `GitHub` repo via `Linux` terminal.
 6. Deployed via GitHug Pages: [NASDAQ & NYSE 2017 Website](https://githhayden.github.io/US-Equity-Markets-2017/).
 
 ### Developer To Do Notes
