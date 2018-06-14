@@ -37,4 +37,4 @@ This SPA site provides users with a drop-down selector, pie charts, bar charts a
 NOTE: At end of project, re-pushed to a new GitHub repo to update project naming conventions,
 thus, lost all staged commits.
 ```
-6. Deployed via GitHug Pages: [NASDAQ & NYSE 2017 Website](https://githhayden.github.io/US-Equity-Markets-2017/).
+6. Deployed via GitHub Pages: [NASDAQ & NYSE 2017 Website](https://githhayden.github.io/US-Equity-Markets-2017/).
