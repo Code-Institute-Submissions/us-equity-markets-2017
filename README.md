@@ -1,3 +1,7 @@
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQ_piv2GVA-o5_GIHWgO2s3TgQyrEsOtMLx0xIWKXNjZihi6G)
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPWiSNROXs6bgE5tCE1K0U5GxWYbPtWAUzNykjbmAs-xPc0iT3Q)
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaslC_J7vtJGVDJ5GkXLMKmAT0oAM3Lehvd1BDphj74Snnflsg)
+
 # US Equity Markets 2017
 
 This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of the US Equities priced under USD50, at 2017 year end.
@@ -32,29 +36,18 @@ The following section describes all the front-end features in this project.
 
 1. **About** - Provides users with a description of the dashboards purpose and what data is included.
 2. **User Guidance** - Provides users with guidance on how to use the dashboard.
-3. **Select Industry** - A drop-down selector, allowing users to select all or specific industries. When a selection is made, each chart is then automatiically upated with the relevant selections made.
-4. **Number of Equities by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-5. **Market Capitalisation by Sector** - A pie chart displaying the market capitalisation by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-6. **Market Capitalisation by Domiciled Country** - A pie chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-7. **Average Daily Volume by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-8. **Average Daily Volume by Domiciled Country** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-9. **Average Daily Volume per Equity by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-10.**Average Daily Volume per Equity -V- Price per Equity** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
-
-
-
-
-1. **The Beach Boys** - Landing page navbar menu item. When selected moves users to the landing page, which is a photo of the band with a call to action text. This section also has a Sign-Up button, when selected, a modal appears, where users can complete their details and submit, to sign up to news.
-2. **About** - About navbar menu item. When selected moves users to view the about section, which contains a summary about The Beach Boys, to understand the bands background.
-3. **Videos** - Video navbar item. When selected moves users to view the video section which showcases the bands videos, for entertainment, to download videos and to see their performances should a user choose to book them for an event or live gig.
-4. **Audio** - Audio navbar item. When selected moves users to listen to audio tracks of the band which showcases audio tracks, for entertainment, to download and to listen to their music should a user choose to book them for an event or live gig.
-5. **Contact** - Contact navbar item. When selected moves the users to the contact section, to be able to contact the band, to submit feedback or to book the band for an event.
-6. **Social Media Icons** - Icons for Facebook, Twitter and Youtube, when selected moves users to each social media page. Allows users to be a part of the bands journey and interact with them online.
+3. **Select Industry** - A drop-down selector, allowing users to select all or specific industries. When a selection is made, each chart is then automatiically upated with the relevant selections made. Also allows users to reset all charts by selecting 'select all'.
+4. **Number of Equities by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+5. **Market Capitalisation by Sector** - A pie chart displaying the market capitalisation by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+6. **Market Capitalisation by Domiciled Country** - A pie chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+7. **Average Daily Volume by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+8. **Average Daily Volume by Domiciled Country** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+9. **Average Daily Volume per Equity by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+10. **Average Daily Volume per Equity -V- Price per Equity** - A scatter plot chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
 
 ### Features to Implement
-1. **Interactive Tutorial** - Add a feature to 
-2. **Comma Seperator** - Add a feature 
-3. **X/Y Axis** - Add a feature 
+1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial.
+2. **Comma Seperator** - Update hoover metrics to include a comma seperator.
 
 ## Technologies Used
 
@@ -76,6 +69,38 @@ The following section describes all technologies and tools used to construct thi
     - This project uses **GitHub**, a web hosting service, for version control and final project deployment.
 - [All Other Technologies](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
     - All other technologies within this project were included with the Bootstrap template.
+
+
+
+### Project Technologies
+
+2. Bootstrap CSS: Bootswatch [Flatly Theme](https://bootswatch.com/flatly/) `bootstrap.min.css` file uploaded and linked within `index.html` `<head>` section.
+
+3. DC CSS: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section.
+
+4. Custom CSS: `style.min.css` file created and linked within `index.html` `<head>` section. CSS code written within this file to style `<body>`.
+
+5. D3 JavaScript: [D3.js](https://d3js.org/) `d3.min.js` file uploaded and linked within `index.html` `<head>` section. D3 is a JavaScript library for producing interactive data visualizations. It uses a combination of SVG, HTML5, and CSS. D3 is ordered as the first JavaScript link, as `dc.min.js` & `crossfilter.min.js` are dependencies and will not render in the browser otherwise.
+
+6. Crossfilter JavaScript: [Crossfilter.min.js](http://square.github.io/crossfilter/) `crossfilter.min.css` file uploaded and linked within `index.html` `<head>` section. Crossfilter provides automated related dataset updates.
+
+7. DC JavaScript: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section. A charting library built on top of D3 and is used for interactive charting.
+
+8. Queue JavaScript: [D3-Queue.js](https://github.com/d3/d3-queue) `queue.min.css` file uploaded and linked within `index.html` `<head>` section. Assists loading files i.e. defers calling function until the data is ready.
+9. Custom JavaScript: `graph.js` file created and linked within `index.html` `<head>` section. JavaScript code written in this file to build charting.
+10. Excel CSV Dataset: `Equities.csv` file uploaded and referenced throughout `graph.js`code to pull relevant data into charting.
+11. Main HTML: `index.html` file created. HTML and CSS code written to structure site. Includes links to relevant files and add background photo via CSS `<style>` code.
+12. Chrome Dev Tools: Ongoing inspection of elements and to perform final UAT. ``` D3 data visualisation is non-responsive and built for large screens``` therefore, `Bootstrap` containers ONLY are responsive.
+13. GitHub: Version control and final backup of project.
+
+
+
+
+
+
+
+
+
 
 ## Testing
 
@@ -147,7 +172,7 @@ The following section describes the process to deploy this project to GitHub Pag
 5. Within GitHub, under the `Settings` heading, go to the `GitHub Pages` section.
 6. Select Master branch and save.
 7. The project is now published to GitHub Pages and can be viewed in the browser.
-8. GitHub Pages URL: [The Beach Boys](https://githhayden.github.io/The-Beach-Boys/).
+8. GitHub Pages URL: [US Equity Markets 2017](https://githhayden.github.io/US-Equity-Markets-2017/).
 
 > **Note:** During development, a push to a new GitHub repo resulted in earlier git commits lost.
 
@@ -163,65 +188,3 @@ The following section describes the process to deploy this project to GitHub Pag
 ### Acknowledgements
 
 - I received inspiration for this project from The Beach Boys videos, music and website, from Bootstrap template designs, from ongoing research online and from Code Institute education.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQ_piv2GVA-o5_GIHWgO2s3TgQyrEsOtMLx0xIWKXNjZihi6G)
-![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPWiSNROXs6bgE5tCE1K0U5GxWYbPtWAUzNykjbmAs-xPc0iT3Q)
-![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaslC_J7vtJGVDJ5GkXLMKmAT0oAM3Lehvd1BDphj74Snnflsg)
-
-### NASDAQ & NYSE 2017 - Equities Below $50
-**SPA** (**Single Page Application**) site. `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock.
-
-This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. number of equities, market capitalisation, volume, price, sector, industry and domiciled country.
-
-### User Functionalities
-1. Drop-Down Selector: Provides functionality to select and reset industry, which updates all charts with the relevant data.
-2. Bar Chart: Provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-3. Pie Chart: Provides subset visualisation of all parts and is useful for understanding the whole picture.
-4. Scatter Plot Chart: Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
-
-### Project Technologies
-1. Cloud 9: `Integrated Development Environment` used to build project end to end.
-2. Bootstrap CSS: Bootswatch [Flatly Theme](https://bootswatch.com/flatly/) `bootstrap.min.css` file uploaded and linked within `index.html` `<head>` section.
-3. DC CSS: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section.
-4. Custom CSS: `style.min.css` file created and linked within `index.html` `<head>` section. CSS code written within this file to style `<body>`.
-5. D3 JavaScript: [D3.js](https://d3js.org/) `d3.min.js` file uploaded and linked within `index.html` `<head>` section. D3 is a JavaScript library for producing interactive data visualizations. It uses a combination of SVG, HTML5, and CSS. D3 is ordered as the first JavaScript link, as `dc.min.js` & `crossfilter.min.js` are dependencies and will not render in the browser otherwise.
-6. Crossfilter JavaScript: [Crossfilter.min.js](http://square.github.io/crossfilter/) `crossfilter.min.css` file uploaded and linked within `index.html` `<head>` section. Crossfilter provides automated related dataset updates.
-7. DC JavaScript: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section. A charting library built on top of D3 and is used for interactive charting.
-8. Queue JavaScript: [D3-Queue.js](https://github.com/d3/d3-queue) `queue.min.css` file uploaded and linked within `index.html` `<head>` section. Assists loading files i.e. defers calling function until the data is ready.
-9. Custom JavaScript: `graph.js` file created and linked within `index.html` `<head>` section. JavaScript code written in this file to build charting.
-10. Excel CSV Dataset: `Equities.csv` file uploaded and referenced throughout `graph.js`code to pull relevant data into charting.
-11. Main HTML: `index.html` file created. HTML and CSS code written to structure site. Includes links to relevant files and add background photo via CSS `<style>` code.
-12. Chrome Dev Tools: Ongoing inspection of elements and to perform final UAT. ``` D3 data visualisation is non-responsive and built for large screens``` therefore, `Bootstrap` containers ONLY are responsive.
-13. GitHub: Version control and final backup of project.
-
-### Development Process and Deployment
-1. Blank `Cloud 9` workspace created. Folders set up and files uploaded/created in line with wireframe.
-2. `index.html`, `graph.js` and `style.css` updated in parallel. HTML, CSS, and JavaScript code written for each section. See code commentary for detailed guidance.
-3. UAT: Final web design inspected via `Cloud 9`, `Run`. Responsive web design tested via `Chrome Dev Tools`, `Toggle Device Toolbar`. ``` D3 data visualisation is non-responsive and built for large screens``` therefore, `Bootstrap` containers ONLY are responsive.
-5. Git and GitHub: Used for version control and to deploy backup up project.
-```
-NOTE: At end of project, re-pushed to a new GitHub repo to update project naming conventions,
-thus, lost all staged commits.
-```
-6. Deployed via GitHub Pages: [NASDAQ & NYSE 2017 Website](https://githhayden.github.io/US-Equity-Markets-2017/).
