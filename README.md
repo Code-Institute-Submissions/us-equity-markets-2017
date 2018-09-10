@@ -1,6 +1,6 @@
 # US Equity Markets 2017
 
-This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audiences are users who wish to gain an overview analysis of US equities priced under USD50 per equity, at 2017 year end.
+This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of the US Equities priced under USD50, at 2017 year end.
 
 This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. number of equities, market capitalisation, volume, price, sector, industry and domiciled country.
 
@@ -12,7 +12,7 @@ The following section describes the UX process for this project.
 1. **US Equity Markets** - Using my own knowledge, sketched out potential sets of data to include within the dashboard.
 2. **Layout** - Reviewed Code Institute learnings to date, Bootstrap documentation and templates, researching D3.js online to extract design ideas.
 3. **User Stories** - Walked through user stories.
-    1. **About** - As a user, I want to clearly understand the purpose and information, included within this dashboard.
+    1. **About** - As a user, I want to clearly understand the purpose and data, included within this dashboard.
     2. **User Guidance** - As a user, I want to to clearly understand how to use this dashboard.
     3. **Select Industry** - As a user, I want to be able to drill into each sector by industry type.
     4. **Number of Equities by Sector** - As a user, I want to be able to view the number of equities by sector and drill into each sector by industry type.
@@ -30,6 +30,20 @@ The following section describes the UX process for this project.
 
 The following section describes all the front-end features in this project.
 
+1. **About** - Provides users with a description of the dashboards purpose and what data is included.
+2. **User Guidance** - Provides users with guidance on how to use the dashboard.
+3. **Select Industry** - A drop-down selector, allowing users to select all or specific industries. When a selection is made, each chart is then automatiically upated with the relevant selections made.
+4. **Number of Equities by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+5. **Market Capitalisation by Sector** - A pie chart displaying the market capitalisation by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+6. **Market Capitalisation by Domiciled Country** - A pie chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+7. **Average Daily Volume by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+8. **Average Daily Volume by Domiciled Country** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+9. **Average Daily Volume per Equity by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+10.**Average Daily Volume per Equity -V- Price per Equity** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector.
+
+
+
+
 1. **The Beach Boys** - Landing page navbar menu item. When selected moves users to the landing page, which is a photo of the band with a call to action text. This section also has a Sign-Up button, when selected, a modal appears, where users can complete their details and submit, to sign up to news.
 2. **About** - About navbar menu item. When selected moves users to view the about section, which contains a summary about The Beach Boys, to understand the bands background.
 3. **Videos** - Video navbar item. When selected moves users to view the video section which showcases the bands videos, for entertainment, to download videos and to see their performances should a user choose to book them for an event or live gig.
@@ -38,11 +52,9 @@ The following section describes all the front-end features in this project.
 6. **Social Media Icons** - Icons for Facebook, Twitter and Youtube, when selected moves users to each social media page. Allows users to be a part of the bands journey and interact with them online.
 
 ### Features to Implement
-1. **Merchandise** - Add a feature to sell the bands merchandise.
-2. **Book live concerts** - Add a feature to allow fans to purchase tickets via this website.
-3. **Live concert schedule** - Add a feature to show a summary of the bands concert schedule.
-3. **Videos** - Upgrade the video feature to a horizontal, automatic, video slider to enhance UX/UI.
-4. **Audio Tracks** - Upgrade the video feature to a horizontal, automatic, video slider with track photo image, to enhance UX/UI.
+1. **Interactive Tutorial** - Add a feature to 
+2. **Comma Seperator** - Add a feature 
+3. **X/Y Axis** - Add a feature 
 
 ## Technologies Used
 
