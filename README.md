@@ -46,7 +46,7 @@ The following section describes all the front-end features in this project.
 10. **Average Daily Volume per Equity -V- Price per Equity** - A scatter plot chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
 
 ### Features to Implement
-1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial.
+1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial, and include definitions.
 2. **Comma Seperator** - Update hoover metrics to include a comma seperator.
 3. **X and Y axis** - Update styling to bold, larger text and implement improved ways to display.
 

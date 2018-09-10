@@ -38,21 +38,30 @@
   </nav>
 
   <!-- Heading -->
-  <section class="section section-background">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          <h1 class="heading">About</h1>
-        </div>
-        <div class="col-sm">
-          <h1 class="heading">User Guidance</h1>
-        </div>
+  <div class="row">
+    <div class="text-center col-md-6">
+      <div class="section section-background mr-4">
+        <h1>About</h1>
+        <h3 align="left">This Data Visualisation Dashboard allows users to analyse NYSE and NASDAQ equities, priced below USD50, as at the end of 2017.</h3>
+        <p>
+          <h3 align="left">The data displayed on each chart is by default presented by sector. Each sector can be drilled into and the data displayed by industry type.</h3>
+        </p>
+
       </div>
     </div>
-  </section>
+    <div class="text-center col-md-6">
+      <div class="section section-background ml-4">
+        <h1>User Guidance
+          <h1>
+            <h3 align="left">Using the <strong>Select Industry</strong> drop-down selector, choose <strong>Select all</strong> to display data within each chart, for all NASDAQ and NYSE equities under USD50 as at 2017 year end.</h3>
+            <p>
+              <h3 align="left">To drill into each sector by industry, use the <strong>Select Industry</strong> drop-down selector and choose the relevant industry.</h3>
+            </p>
+      </div>
+    </div>
+  </div>
 
-  <br>
-
+  <!-- Drop Down Selector Heading -->
   <div class="row">
     <h2 class="selector-heading"><strong>Select Industry</h2></strong>
   </div>
@@ -62,8 +71,6 @@
   <div class="row">
     <div id="industry-selector" class="selector"></div>
   </div>
-
-  <br>
 
   <section class="section section-background">
     <!-- Number of Equities by Sector BarChart -->
@@ -75,8 +82,6 @@
       <div id="sector-balance" class="bar-chart"></div>
     </div>
   </section>
-
-  <br>
 
   <section class="section section-background">
     <!-- Market Capitalisation by Sector PieChart -->
@@ -96,8 +101,6 @@
     </div>
   </section>
 
-  <br>
-
   <section class="section section-background">
     <!-- Average Volume per Equity by Sector by Sector BarChart -->
     <div class="row">
@@ -108,8 +111,6 @@
       <div id="equities-traded" class="bar-chart"></div>
     </div>
   </section>
-
-  <br>
 
   <section class="section section-background">
     <!-- Average Volume to Price ScatterPlot -->
@@ -122,7 +123,6 @@
     </div>
   </section>
 
-  <br>
   </main>
 
   </div>
