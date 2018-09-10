@@ -32,102 +32,98 @@
 
 <body>
 
-
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#">US Equity Markets 2017</a>
   </nav>
 
-  <div class="container-fluid">
-
-    <main>
-      <!-- Heading -->
-      <section class="section section-background">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <h1 class="heading">About</h1>
-            </div>
-            <div class="col-sm">
-              <h1 class="heading">User Guidance</h1>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <br>
-
+  <!-- Heading -->
+  <section class="section section-background">
+    <div class="container">
       <div class="row">
-        <h2 class="selector-heading"><strong>Select Industry</h2></strong>
+        <div class="col-sm">
+          <h1 class="heading">About</h1>
+        </div>
+        <div class="col-sm">
+          <h1 class="heading">User Guidance</h1>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <br>
+
+  <div class="row">
+    <h2 class="selector-heading"><strong>Select Industry</h2></strong>
+  </div>
 
 
-      <!-- Drop Down Selector -->
-      <div class="row">
-        <div id="industry-selector" class="selector"></div>
-      </div>
+  <!-- Drop Down Selector -->
+  <div class="row">
+    <div id="industry-selector" class="selector"></div>
+  </div>
 
-      <br>
+  <br>
 
-      <section class="section section-background">
-        <!-- Number of Equities by Sector BarChart -->
-        <div class="row">
-          <div class="bar-chart-heading">Number of Equities by Sector</div>
-        </div>
+  <section class="section section-background">
+    <!-- Number of Equities by Sector BarChart -->
+    <div class="row">
+      <div class="chart-heading">Number of Equities by Sector</div>
+    </div>
 
-        <div class="row">
-          <div id="sector-balance" class="bar-chart"></div>
-        </div>
-      </section>
+    <div class="row">
+      <div id="sector-balance" class="bar-chart"></div>
+    </div>
+  </section>
 
-      <br>
+  <br>
 
-      <section class="section section-background">
-        <!-- Market Capitalisation by Sector PieChart -->
-        <div class="row pie-charts">
-          <div class="col-md-3 pie-chart-heading">Market Capitalisation by Sector ('000,000s)</div>
-          <div class="col-md-3 pie-chart-heading">Market Capitalisation by Domiciled Country ('000,000s)</div>
-          <div class="col-md-3 pie-chart-heading">Average Daily Volume by Sector ('000s)</div>
-          <div class="col-md-3 pie-chart-heading">Average Daily Volume by Domiciled Country ('000s)</div>
-        </div>
+  <section class="section section-background">
+    <!-- Market Capitalisation by Sector PieChart -->
+    <div class="row pie-charts">
+      <div class="col-md-3 chart-heading">Market Capitalisation by Sector ('000,000s)</div>
+      <div class="col-md-3 chart-heading">Market Capitalisation by Domiciled Country ('000,000s)</div>
+      <div class="col-md-3 chart-heading">Average Daily Volume by Sector ('000s)</div>
+      <div class="col-md-3 chart-heading">Average Daily Volume by Domiciled Country ('000s)</div>
+    </div>
 
-        <!-- Market Capitalisation by Country PieChart -->
-        <div class="row pie-charts">
-          <div class="col-md-3" id="marketcap-sector"></div>
-          <div class="col-md-3" id="marketcap-country"></div>
-          <div class="col-md-3" id="avgvol-sector"></div>
-          <div class="col-md-3" id="avgvol-country"></div>
-        </div>
-      </section>
+    <!-- Market Capitalisation by Country PieChart -->
+    <div class="row pie-charts">
+      <div class="col-md-3" id="marketcap-sector"></div>
+      <div class="col-md-3" id="marketcap-country"></div>
+      <div class="col-md-3" id="avgvol-sector"></div>
+      <div class="col-md-3" id="avgvol-country"></div>
+    </div>
+  </section>
 
-      <br>
+  <br>
 
-      <section class="section section-background">
-        <!-- Average Volume per Equity by Sector by Sector BarChart -->
-        <div class="row">
-          <div class="bar-chart-heading-per-equity">Average Daily Volume per Equity by Sector ('000s)</div>
-        </div>
+  <section class="section section-background">
+    <!-- Average Volume per Equity by Sector by Sector BarChart -->
+    <div class="row">
+      <div class="chart-heading">Average Daily Volume per Equity by Sector ('000s)</div>
+    </div>
 
-        <div class="row">
-          <div id="equities-traded" class="bar-chart"></div>
-        </div>
-      </section>
+    <div class="row">
+      <div id="equities-traded" class="bar-chart"></div>
+    </div>
+  </section>
 
-      <br>
+  <br>
 
-      <section class="section section-background">
-        <!-- Average Volume to Price ScatterPlot -->
-        <div class="row">
-          <div class="bar-chart-heading-per-equity">Average Daily Volume ('000s) per Equity -V- Price per Equity </div>
-        </div>
+  <section class="section section-background">
+    <!-- Average Volume to Price ScatterPlot -->
+    <div class="row">
+      <div class="chart-heading">Average Daily Volume ('000s) per Equity -V- Price per Equity </div>
+    </div>
 
-        <div class="row">
-          <div id="price-avgvol" class="bar-chart"></div>
-        </div>
-      </section>
+    <div class="row">
+      <div id="price-avgvol" class="bar-chart"></div>
+    </div>
+  </section>
 
-      <br>
-    </main>
+  <br>
+  </main>
 
   </div>
 

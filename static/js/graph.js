@@ -61,8 +61,8 @@ function show_marketcap_sector(ndx) {
     var marketcap_per_sector = sector_dim.group().reduceSum(dc.pluck('marketcap'));
 
     dc.pieChart('#marketcap-sector')
-        .height(250)
-        .radius(125)
+        .height(300)
+        .radius(150)
         .transitionDuration(1500)
         .dimension(sector_dim)
         .group(marketcap_per_sector);
@@ -75,8 +75,8 @@ function show_marketcap_country(ndx) {
     var marketcap_per_country = country_dim.group().reduceSum(dc.pluck('marketcap'));
 
     dc.pieChart('#marketcap-country')
-        .height(250)
-        .radius(125)
+        .height(300)
+        .radius(150)
         .transitionDuration(1500)
         .dimension(country_dim)
         .group(marketcap_per_country);
@@ -89,8 +89,8 @@ function show_avgvol_sector(ndx) {
     var avgvol_per_sector = sector_dim.group().reduceSum(dc.pluck('avgvol'));
 
     dc.pieChart('#avgvol-sector')
-        .height(250)
-        .radius(125)
+        .height(300)
+        .radius(150)
         .transitionDuration(1500)
         .dimension(sector_dim)
         .group(avgvol_per_sector);
@@ -103,8 +103,8 @@ function show_avgvol_country(ndx) {
     var avgvol_per_country = country_dim.group().reduceSum(dc.pluck('avgvol'));
 
     dc.pieChart('#avgvol-country')
-        .height(250)
-        .radius(125)
+        .height(300)
+        .radius(150)
         .transitionDuration(1500)
         .dimension(country_dim)
         .group(avgvol_per_country);

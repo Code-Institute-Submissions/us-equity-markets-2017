@@ -48,6 +48,7 @@ The following section describes all the front-end features in this project.
 ### Features to Implement
 1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial.
 2. **Comma Seperator** - Update hoover metrics to include a comma seperator.
+3. **X and Y axis** - Update styling to bold, larger text and implement improved ways to display.
 
 ## Technologies Used
 

@@ -16,9 +16,11 @@ body {
 
 .section {
     border: 1px solid #d9d9d9;
-    margin-left:75px;
-    margin-right:75px;
-    margin-top:10px;
+    margin-left: 40px;
+    margin-right:40px;
+    margin-top: 5px;
+    padding-top:15px;
+    padding-bottom:15px;
 }
 
 .section-background {
@@ -27,9 +29,8 @@ body {
 
 .selector-heading {
     text-align: center;
-    color: black;
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 25px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,15 +41,12 @@ body {
     margin-right: auto;
 }
 
-.bar-chart-heading {
+.chart-heading {
     text-align: center;
     font-weight: bold;
     color: black;
     font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto 5px auto;
 }
 
 .bar-chart {
@@ -57,28 +55,8 @@ body {
     margin-right: auto;
 }
 
-.pie-chart-heading {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .pie-charts {
     margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bar-chart-heading-per-equity {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 15px;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
