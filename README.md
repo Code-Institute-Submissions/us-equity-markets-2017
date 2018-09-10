@@ -4,17 +4,17 @@
 
 # US Equity Markets 2017
 
-This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of the US Equities priced under USD$50, at 2017 year end.
+This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of all NASDAQ and NYSE equities priced under USD$50, at 2017 year end.
 
-This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. number of equities, market capitalisation, volume, price, sector, industry and domiciled country.
+This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. by sector, by industry, number of equities, market capitalisation, domiciled country, volume and price.
 
 ## UX
 
 The following section describes the UX process for this project.
 
 #### UX Process
-1. **US Equity Markets** - Using my own knowledge, sketched out potential sets of data to include within the dashboard.
-2. **Layout** - Reviewed Code Institute learnings to date, Bootstrap documentation and templates, researching D3.js online to extract design ideas.
+1. **US Equity Markets** - Using my own knowledge, sketched out potential sets of data to include within a dashboard.
+2. **Layout** - Reviewed the Code Institute learnings to date, Bootswatch themes and D3.js documentation to extract design ideas.
 3. **User Stories** - Walked through user stories.
     1. **About** - As a user, I want to clearly understand the purpose and data, included within this dashboard.
     2. **User Guidance** - As a user, I want to to clearly understand how to use this dashboard.
@@ -24,9 +24,9 @@ The following section describes the UX process for this project.
     6. **Market Capitalisation by Domiciled Country** - As a user, I want to be able to view the market capitalisation by domiciled country and drill into each sector by industry type.
     7. **Average Daily Volume by Sector** - As a user, I want to be able to view the average daily volume by sector and drill into each sector by industry type.
     8. **Average Daily Volume by Domiciled Country** - As a user, I want to be able to view the average daily volume by domicilied country, by sector and drill into each sector by industry type.
-    9. **Average Daily Volume per Equity by Sector** - As a user, I want to be able to view the average daily volume per equity by sector and drill into each sector by industry type.
-    10.**Average Daily Volume per Equity -V- Price per Equity** - As a user, I want to be able to view the average daily volume per equity verses price per equity, by sector and drill into each sector by industry type.
-4. **Wireframe** - Sketched the wireframe on paper, to include functionality for each user story, meeting users needs via a dashboard.
+    9. **Average Daily Volume per Equity by Sector** - As a user, I want to be able to view the average daily volume per equity, by sector and drill into each sector by industry type.
+    10. **Average Daily Volume per Equity Vs. Price per Equity** - As a user, I want to be able to view the average daily volume per equity verses price per equity, by sector and drill into each sector by industry type.
+4. **Wireframe** - Sketched the wireframe on paper, to include the features for each user story, meeting the users needs by presenting the data on a dashboard charting application.
 
 ## Features
  
@@ -43,7 +43,7 @@ The following section describes all the front-end features in this project.
 7. **Average Daily Volume by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
 8. **Average Daily Volume by Domiciled Country** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
 9. **Average Daily Volume per Equity by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-10. **Average Daily Volume per Equity -V- Price per Equity** - A scatter plot chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
+10. **Average Daily Volume per Equity Vs. Price per Equity** - A scatter plot chart displaying the number of equities by sector, which is updated by industry type if a user makes changes via the 'Select Idustry' drop-down selector. Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
 
 ### Features to Implement
 1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial, and include definitions.
@@ -147,8 +147,13 @@ The following section describes the process to deploy this project to GitHub Pag
 ## Credits
 
 ### Dataset
-- The .csv dataset used within this project was extraced from the [NYSE](https://www.nyse.com/index) and [NASDAQ](https://www.nasdaq.com/) exchanges, as at the end of 2017.
+- The .csv dataset used within this project was extraced from the [NYSE](https://www.nyse.com/index) and [NASDAQ](https://www.nasdaq.com/) exchanges.
 
 ### Acknowledgements
 
-- I previously studied Finance and the US Capital Markets, and used that knowledge as inspiration for this project. I also drew on knowledge from the [Code Institute](https://www.codeinstitute.net/), Diploma in Software Development.
+- I previously studied Finance and the US Capital Markets, and used that knowledge as inspiration for this project. I also used knowledge gained from the [Code Institute](https://www.codeinstitute.net/), Diploma in Software Development.
+
+
+
+
+
