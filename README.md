@@ -1,23 +1,28 @@
-# The Beach Boys
+# US Equity Markets 2017
 
-This website is a static (front-end only) application for The Beach Boys, 1960's rock band. The primary target audiences are fans, potential fans and customers. Users can sign up for news, read an overview about the band, watch and download videos, listen to and download audio tracks, contact the band, request a booking and follow the band on social media.
+This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audiences are users who wish to gain an overview analysis of US equities priced under USD50 per equity, at 2017 year end.
+
+This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. number of equities, market capitalisation, volume, price, sector, industry and domiciled country.
 
 ## UX
 
 The following section describes the UX process for this project.
 
 #### UX Process
-1. **The Beach Boys** - Reviewed The Beach Boys videos, music and website to understand this genre, fans, potential fans and customers.
-2. **Layout** - Reviewed Code Institute learnings to date, Bootstrap documentation and templates to extract design ideas.
+1. **US Equity Markets** - Using my own knowledge, sketched out potential sets of data to include within the dashboard.
+2. **Layout** - Reviewed Code Institute learnings to date, Bootstrap documentation and templates, researching D3.js online to extract design ideas.
 3. **User Stories** - Walked through user stories.
-    1. **Photo of the band** - As a fan, potential fan or customer, I want to view an up-to-date photo of the band to get a sense of their vibe.
-    2. **Subscribe to News** - As a fan, potential fan or customer, I want to subscribe to The Beach Boys news, to receive updates on the bands members, their concerts and new music.
-    3. **About** - As a fan, potential fan or customer, I want to read a summary about The Beach Boys, to understand their background to date.
-    4. **Videos** - As a fan, potential fan or customer, I want to watch The Beach Boys videos, for entertainment, to download videos and to see their performances should I choose to book them for an event or a live concert.
-    5. **Audio** - As a fan, potential fan or customer, I want to listen to The Beach Boys audio tracks, for entertainment, to download audio tracks and to listen to their music should I choose to book them for an event or a live concert.
-    6. **Contact** - As a fan, potential fan or customer I want to be able to contact the band, to submit feedback or request to book the band for an event.
-    7. **Social Media Icons** - As a fan, potential fan or customer I want to be able to follow the band on social media, to be a part of their journey and interact with them online.
-4. **Wireframe** - Sketched the wireframe on paper, to include a section for each user story, delivering a clear design to connect the bands needs to the user’s needs.
+    1. **About** - As a user, I want to clearly understand the purpose and information, included within this dashboard.
+    2. **User Guidance** - As a user, I want to to clearly understand how to use this dashboard.
+    3. **Select Industry** - As a user, I want to be able to drill into each sector by industry type.
+    4. **Number of Equities by Sector** - As a user, I want to be able to view the number of equities by sector and drill into each sector by industry type.
+    5. **Market Capitalisation by Sector** - As a user, I want to be able to view the market capitalisation by sector and drill into each sector by industry type.
+    6. **Market Capitalisation by Domiciled Country** - As a user, I want to be able to view the market capitalisation by domiciled country and drill into each sector by industry type.
+    7. **Average Daily Volume by Sector** - As a user, I want to be able to view the average daily volume by sector and drill into each sector by industry type.
+    8. **Average Daily Volume by Domiciled Country** - As a user, I want to be able to view the average daily volume by domicilied country, by sector and drill into each sector by industry type.
+    9. **Average Daily Volume per Equity by Sector** - As a user, I want to be able to view the average daily volume per equity by sector and drill into each sector by industry type.
+    10.**Average Daily Volume per Equity -V- Price per Equity** - As a user, I want to be able to view the average daily volume per equity verses price per equity, by sector and drill into each sector by industry type.
+4. **Wireframe** - Sketched the wireframe on paper, to include functionality for each user story, meeting users needs via a dashboard.
 
 ## Features
  
