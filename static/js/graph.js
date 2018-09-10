@@ -24,7 +24,7 @@ function makeGraphs(error, equityData) {
     dc.renderAll();
 }
 
-// Drop Down Selector
+// Drop-Down Selector
 
 function show_industry_selector(ndx) {
     dim = ndx.dimension(dc.pluck('industry'));
