@@ -4,7 +4,7 @@
 
 # US Equity Markets 2017
 
-This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of the US Equities priced under USD50, at 2017 year end.
+This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of the US Equities priced under USD$50, at 2017 year end.
 
 This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. number of equities, market capitalisation, volume, price, sector, industry and domiciled country.
 
@@ -55,112 +55,78 @@ The following section describes all technologies and tools used to construct thi
 
 - [Cloud 9 IDE](https://aws.amazon.com/cloud9/)
     - The project used **Cloud 9**, online integrated development environment, to construct the code end to end.
-- [Bootstrap Template](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
-    - This project uses **Bootstrap Nav scrolling bar template**. A blank template with a main navigation and grid layout. This blank template was used as a starting block and tailored/built upon for this specific website. The `index.html` and `main.css` files are predominantly all, the developers code. All other code was included with the Bootstrap template.
-- [Font Awesome](https://fontawesome.com/)
-    - This project uses **Font Awesome**, a library of icons, to add the social media icons within the footer.
+- [Equities.csv](https://en.wikipedia.org/wiki/Comma-separated_values)
+    - This project uses a csv file, which stores tabular data (numbers and text) in plain text. The `equities.csv` file contains the dataset that populates the front-end charts for this project.
+- [Bootswatch](https://bootswatch.com)
+    - This project uses **Bootswatch**, a library of Bootstrap themes. The `flatly theme`, `bootstrap.min.css` file was used for this project.
+- [DC.js](https://dc-js.github.io/dc.js/)
+    - This project uses **DC.js**, a javascript charting library, that leverages D3 to render charts in a CSS friendly SVG format.
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - This project uses **CSS**, a style sheet language, used to add styling to a website. The `style.css` file was added to this project, to build additional styling on top of the Bootswatch theme.
+- [Crossfilter](http://square.github.io/crossfilter/)
+    - This project uses **Crossfilter**, a JavaScript library for exploring large multivariate datasets in the browser. 
+- [D3](https://d3js.org/)
+    - This project uses **D3.js**, a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS, producing interactive data visualizations.
+- [DC](https://dc-js.github.io/dc.js/)
+    - This project uses **DC.js**, a javascript charting library with native crossfilter support, allowing highly efficient exploration on large multi-dimensional datasets. It leverages D3 to render charts in CSS-friendly SVG format.
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+    - This project uses **Javascript**, an object-oriented programming language commonly used to create interactive effects within web browsers.
+- [D3-Queue](https://github.com/d3/d3-queue)
+    - This project uses **D3-Queue**, which assists loading files and defers calling function until the data is ready.
 - [HTML](https://en.wikipedia.org/wiki/HTML)
     - This project uses **HTML**, the standard mark-up language used to build website layout, which was written within the `index.html` file.
-- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-    - This project uses **CSS**, a style sheet language, used to add styling to a website. The `main.css` file was added to this project, to add additional styling on top of the Bootstrap template.
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/)
     - This project uses **Chrome Dev Tools**, a set of web developer tools, to continuously test and inspect that the web pages are rendering as expected within the browser.
 - [GitHub](https://github.com/)
     - This project uses **GitHub**, a web hosting service, for version control and final project deployment.
-- [All Other Technologies](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav)
-    - All other technologies within this project were included with the Bootstrap template.
-
-
-
-### Project Technologies
-
-2. Bootstrap CSS: Bootswatch [Flatly Theme](https://bootswatch.com/flatly/) `bootstrap.min.css` file uploaded and linked within `index.html` `<head>` section.
-
-3. DC CSS: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section.
-
-4. Custom CSS: `style.min.css` file created and linked within `index.html` `<head>` section. CSS code written within this file to style `<body>`.
-
-5. D3 JavaScript: [D3.js](https://d3js.org/) `d3.min.js` file uploaded and linked within `index.html` `<head>` section. D3 is a JavaScript library for producing interactive data visualizations. It uses a combination of SVG, HTML5, and CSS. D3 is ordered as the first JavaScript link, as `dc.min.js` & `crossfilter.min.js` are dependencies and will not render in the browser otherwise.
-
-6. Crossfilter JavaScript: [Crossfilter.min.js](http://square.github.io/crossfilter/) `crossfilter.min.css` file uploaded and linked within `index.html` `<head>` section. Crossfilter provides automated related dataset updates.
-
-7. DC JavaScript: [DC.js](https://dc-js.github.io/dc.js/) `dc.min.css` file uploaded and linked within `index.html` `<head>` section. A charting library built on top of D3 and is used for interactive charting.
-
-8. Queue JavaScript: [D3-Queue.js](https://github.com/d3/d3-queue) `queue.min.css` file uploaded and linked within `index.html` `<head>` section. Assists loading files i.e. defers calling function until the data is ready.
-9. Custom JavaScript: `graph.js` file created and linked within `index.html` `<head>` section. JavaScript code written in this file to build charting.
-10. Excel CSV Dataset: `Equities.csv` file uploaded and referenced throughout `graph.js`code to pull relevant data into charting.
-11. Main HTML: `index.html` file created. HTML and CSS code written to structure site. Includes links to relevant files and add background photo via CSS `<style>` code.
-12. Chrome Dev Tools: Ongoing inspection of elements and to perform final UAT. ``` D3 data visualisation is non-responsive and built for large screens``` therefore, `Bootstrap` containers ONLY are responsive.
-13. GitHub: Version control and final backup of project.
-
-
-
-
-
-
-
-
-
 
 ## Testing
 
 The following is an overview of testing to ensure all functionality works as intended in this project.
 
-1. **Landing section and Subscribe to News**:
-    1. Select the 'Contact' menu on the navbar and verify that the user is moved to the contact section and away from the landing page.
-    2. Select 'The Beach Boys' menu on the navbar and verify that the user is moved to the landing page.
-    3. Select the 'Sign Up' button and verify that a modal appears.
-    4. Complete all user details within the modal and verify that all fields accept relevant inputs.
-    5. Select 'Sign Up' to submit the user’s details and verify that the modal closes.
+1. **Select Industry**:
+    1. Select several random industries from the drop-down selector.
+    2. Confirm that all charts updates with each change in selection.
+    3. Reconcile random industry selections shown in each chart against the .csv file to ensure the front-end data is correct.
     
-        - **Bug 1** - Call to action text not standing out for clean reading.
-            - **Issue** - Background photo too bright and text size too small.
-            - **Fix** - Adjusted photo coloring by reducing brightness and uploaded new photo. Increased text size use of html `<h1>` and `<strong>` tags.
-        
-        - **Bug 2** - Modal input field text alignment centred, rather than left aligned.
-            - **Issue** - Additional `<div>` tags throwing out alignment.
-            - **Fix** - Updated `<div>` tags to ensure alignment correct.
+        - **Bug 1** - Website looks busy and not clear.
+            - **Issue** - Background photo unneccasry and not good design for this particular application.
+            - **Fix** - Removed background photo, updated background to a grey area and white cards backgrounds for each sections. This resulted in clearer presetation of data for users.
 
-2. **About Section**:
-    1. Select the 'About' menu on the navbar and verify that the user is moved to the about section.
-    2. Select the hyperlink, 'To request a booking, please go to the contact section.', and verify that the user is moved to the contact section.
+2. **Number of Equities by Sector**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-3. **Videos Section**:
-    1. Select the 'Videos' menu on the navbar and verify that the user is moved to the videos section.
-    2. On each video, select play, pause, time slider, volume icon, volume slider, full screen and download. Verify that all functionalities work as intended.
+3. **Market Capitalisation by Sector**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-        - **Bug 1** - Custom `main.css`, not overriding Bootstrap CSS.
-            - **Issue** - Website not rendering in browser until Chrome cache cleared.
-            - **Fix** - Spent significant time, hours over several days researching this. Decided to try to clear the cache in Chrome and this fixed the issue. Also used CSS id classes in some areas of the `main.css` to override the Bootstrap CSS.
+4. **Market Capitalisation by Domiciled Country**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-        - **Bug 2** - Bootstrap template grid not suitable for the video layout.
-            - **Issue** - Bootstrap template grid only suitable for one column of data.
-            - **Fix** - Updated `index.html` `<div>` tags around the videos to a bootstrap grid class of `col-sm-6`, to layout two videos side by side within each div row.
+5. **Average Daily Volume by Sector**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-4. **Audio Section**:
-    1. Select the 'Audio' menu on the navbar and verify that the user is moved to the audio section.
-    2. On each audio track, select play, pause, time slider, volume icon, volume slider, and download. Verify that all functionalities work as intended.
-    
-        - **Bug** - Bootstrap template grid not suitable for audio layout.
-            - **Issue** - Bootstrap template grid suitable for one column of data.
-            - **Fix** - Updated `index.html` `<div>` tags around the audio to a bootstrap grid class of `col-sm-6`, to layout two audio tracks side by side on each div row.
-        
-        - **Bug** - Each audio track includes a video thumbnail above the controls.
-            - **Issue** - Used `<video>` html tags, that should be `<audio>` html tags.
-            - **Fix** - Updated relevant `<video>` html tags, that should be `<audio>` html tags.
+6. **Average Daily Volume by Domiciled Country**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-5. **Contact Section**:
-    1. Select the 'Contact' menu on the navbar and verify that the user is moved to the contact section.
-    2. Complete all user details within the form and verify that all input fields accept the text as intended.
+7. **Average Daily Volume per Equity by Sector**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-6. **Social Media Icons**:
-    1. Scroll to the footer section.
-    2. Select the Facebook, Twitter and YouTube icons, and verify that all icon hoover styling is as intended. Verify that all icons open each social media page, in a new browser window.
+8. **Average Daily Volume per Equity -V- Price per Equity**:
+    1. Select 'select all', in drop-down.
+    2. Reconcile data shown for each sector against the .csv file to ensure the front-end data is correct.
 
-7. **Responsive Testing**:
+9. **Responsive Testing**:
     1. In Chrome, right click on the site and select 'inspect', to open the Chrome Dev tools.
     2. Select the toggle device icon at the top of the window, to open the responsive testing window.
     3. Test how the website is rendering on each device size from Galaxy S5 to iPad Pro.
+
+> **Note:** D3.js data visualisation is non-responsive and built for large screens therefore, Bootstrap containers ONLY are responsive for this project.
 
 ## Deployment
 The following section describes the process to deploy this project to GitHub Pages.
@@ -178,13 +144,9 @@ The following section describes the process to deploy this project to GitHub Pag
 
 ## Credits
 
-### Content
-- The text for the About section was copied from [Wikipedia](https://en.wikipedia.org/wiki/The_Beach_Boys).
-
-### Media
-- The photo used in this site was copied from [WWMT.com](https://wwmt.com/news/local/the-beach-boys-to-headline-tulip-time-2018-tickets-on-sale-nov-9).
-- The videos and audio tracks in this site were copied from [YouTube](https://www.youtube.com/). They were then converted to MP4 and MP3 files.
+### Dataset
+- The .csv dataset used within this project was extraced from the [NYSE](https://www.nyse.com/index) and [NASDAQ](https://www.nasdaq.com/) exchanges, as at the end of 2017.
 
 ### Acknowledgements
 
-- I received inspiration for this project from The Beach Boys videos, music and website, from Bootstrap template designs, from ongoing research online and from Code Institute education.
+- I previously studied Finance and the US Capital Markets, and used that knowledge as inspiration for this project. I also drew on knowledge from the [Code Institute](https://www.codeinstitute.net/), Diploma in Software Development.
