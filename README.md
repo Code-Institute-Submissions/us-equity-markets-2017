@@ -4,9 +4,9 @@
 
 # US Equity Markets 2017
 
-This website is a **SPA** (Single Page Application) `Data Visualisation Dashboard Interface` which harnesses, the incredible power of [D3.js](https://d3js.org/) created by Mike Bostock. The primary target audience is any user who wants to gain an overview and analysis of all NASDAQ and NYSE equities priced under USD$50, at 2017 year end.
+This website is a **SPA** (Single Page Application) **Data Visualisation Dashboard Interface** which harnesses, the power of [D3.js](https://d3js.org/), a Javascript library for charting, created by Mike Bostock. The primary target audience is any user who wants to gain a comparable analysis of all NASDAQ and NYSE equities priced under USD$50, at 2017 year end.
 
-This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across various dimensions i.e. by sector, by industry, number of equities, market capitalisation, domiciled country, volume and price.
+This SPA site provides users with a drop-down selector, pie charts, bar charts and a scatter plot chart. Providing data visualisation across a number of dimensions i.e. by sector, by industry, number of equities, market capitalisation, domiciled by country, volume and price.
 
 ## UX
 
@@ -16,7 +16,7 @@ The following section describes the UX process for this project.
 1. **US Equity Markets** - Using my own knowledge, sketched out potential sets of data to include within a dashboard.
 2. **Layout** - Reviewed the Code Institute learnings to date, Bootswatch themes and D3.js documentation to extract design ideas.
 3. **User Stories** - Walked through user stories.
-    1. **About** - As a user, I want to clearly understand the purpose and data, included within this dashboard.
+    1. **About** - As a user, I want to clearly understand the purpose of this dashboard and the data included.
     2. **User Guidance** - As a user, I want to to clearly understand how to use this dashboard.
     3. **Select Industry** - As a user, I want to be able to drill into each sector by industry type.
     4. **Number of Equities by Sector** - As a user, I want to be able to view the number of equities by sector and drill into each sector by industry type.
@@ -25,8 +25,8 @@ The following section describes the UX process for this project.
     7. **Average Daily Volume by Sector** - As a user, I want to be able to view the average daily volume by sector and drill into each sector by industry type.
     8. **Average Daily Volume by Domiciled Country** - As a user, I want to be able to view the average daily volume by domicilied country, by sector and drill into each sector by industry type.
     9. **Average Daily Volume per Equity by Sector** - As a user, I want to be able to view the average daily volume per equity, by sector and drill into each sector by industry type.
-    10. **Average Daily Volume per Equity Vs. Price per Equity** - As a user, I want to be able to view the average daily volume per equity verses price per equity, by sector and drill into each sector by industry type.
-4. **Wireframe** - Sketched the wireframe on paper, to include the features for each user story, meeting the users needs by presenting the data on a dashboard charting application.
+    10. **Average Daily Volume per Equity Vs. Price per Equity** - As a user, I want to be able to view the average daily volume per equity Vs. price per equity, by sector and drill into each sector by industry type.
+4. **Wireframe** - Sketched the wireframe on paper, to include the features for each user story, meeting the users needs by presenting the data on a dashboard charting web application.
 
 ## Features
  
@@ -36,19 +36,19 @@ The following section describes all the front-end features in this project.
 
 1. **About** - Provides users with a description of the dashboards purpose and what data is included.
 2. **User Guidance** - Provides users with guidance on how to use the dashboard.
-3. **Select Industry** - A drop-down selector, allowing users to select all or a specific industry. When a selection is made, each chart is automatically upated with the relevant data. Also allows users to reset all charts by selecting 'select all'.
-4. **Number of Equities by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-5. **Market Capitalisation by Sector** - A pie chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. Provides subset visualisation of all parts and is useful for understanding the whole picture.
-6. **Market Capitalisation by Domiciled Country** - A pie chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. . Provides subset visualisation of all parts and is useful for understanding the whole picture.
-7. **Average Daily Volume by Sector** - A pie chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-8. **Average Daily Volume by Domiciled Country** - A pie chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. . The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-9. **Average Daily Volume per Equity by Sector** - A bar chart displaying the number of equities by sector, which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. . The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
-10. **Average Daily Volume per Equity Vs. Price per Equity** - A scatter plot chart displaying the number of equities by sector, which is updated by industry when a user makes a selections using the 'Select Industry' drop-down selector. . Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
+3. **Select Industry** - A drop-down selector, allowing users to select all or a specific industry. When a selection is made, each chart is automatically upated with the relevant industry data. Allows users to reset all charts by selecting 'Select all'.
+4. **Number of Equities by Sector** - A bar chart displaying 'Number of Equities by Sector', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+5. **Market Capitalisation by Sector** - A pie chart displaying 'Market Capitalisation by Sector', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+6. **Market Capitalisation by Domiciled Country** - A pie chart displaying 'Market Capitalisation by Domiciled Country', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+7. **Average Daily Volume by Sector** - A pie chart displaying 'Average Daily Volume by Sector', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+8. **Average Daily Volume by Domiciled Country** - A pie chart displaying 'Average Daily Volume by Domiciled Country', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. Provides subset visualisation of all parts and is useful for understanding the whole picture.
+9. **Average Daily Volume per Equity by Sector** - A bar chart displaying 'Average Daily Volume per Equity by Sector', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. The bar chart provides an X and Y axis, visualisation of relevant data, and is useful for understanding comparisons.
+10. **Average Daily Volume per Equity Vs. Price per Equity** - A scatter plot chart displaying 'Average Daily Volume per Equity Vs. Price per Equity', which is updated by industry when a user makes a selection, using the 'Select Industry' drop-down selector. When a selection is made, each chart is automatically upated with the relevant industry data. Provides an X and Y axis, visualisation of relevant data, and is useful for understanding correlation/distribution.
 
 ### Features to Implement
-1. **Interactive Tutorial** - Add a feature to include an interactive user guidance tutorial, and include definitions.
+1. **Interactive Tutorial** - Add a feature to include an interactive tutorial.
 2. **Comma Seperator** - Update hoover metrics to include a comma seperator.
-3. **X and Y axis** - Update styling to bold, larger text and implement improved ways to display.
+3. **X and Y axis** - Update to implement improved ways to style both axis's.
 4. **Icons** - Add icons where more streamlined design can be achieved.
 
 ## Technologies Used
